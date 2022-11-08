@@ -1,0 +1,25 @@
+{
+    "name": "My Browser Extension",
+    "version": "0.1.0",
+    "description": "A short description of the browser extension",
+    "manifest_version": 3,
+    "permissions": [],
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Browser Extension Title"
+    },
+    "content_scripts": [
+        {
+            "js": ["js/content-script.js"],
+            "matches": ["http://*/*", "https://*/*"],
+            "run_at": "document_end"
+        }
+    ],
+    "options_ui": {
+        "open_in_tab": true,
+        "page": "options.html"
+    }
+}

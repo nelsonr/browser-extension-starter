@@ -12,7 +12,7 @@ The starter kit, includes example of the common parts of an extension:
 3. **The Popup:** A web page that shows up when you click in the browser extension icon, useful for showing additional actions of the extension;
 4. **The Options Page:** A page that it's usually reserved for configuration or other related options of the extension.
 
-Not every extension will require all these parts, as such, remove whatever it's not necessary.
+Not every extension will require all these parts, as such, remove whatever it's not necessary. After making any change make sure to update the `dist/manifest.json` file, otherwise it won't be valid and the browser will refuse installing the extension.
 
 > **For example**: Instead of showing a Popup, the extension could just do something when the icon is clicked. In that scenario, the Popup wouldn't be necessary and could be removed.
 

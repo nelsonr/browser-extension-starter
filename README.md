@@ -33,6 +33,17 @@ To create a production ready (minified) bundle:
 2. Create a zip from the `dist` folder contents (just the contents, not the folder itself).
 3. Follow the guidelines on how to publish an extension using the links below.
 
+## TypeScript
+
+TypeScript it's a superset of JavaScript, that transpiles into plain JavaScript. It adds additional type features and helps you avoid making the usual mistakes that happen when creating something more complex than a "Hello World".
+It can be a bit much at the start, with TypeScript yelling at you but after a while you'll start to appreciate it and hopefully, wonder how did you ever did anything without it.
+
+Nonetheless, it's possible to just use plain JavaScript:
+
+1. Change the file extensions from `.ts` to `.js`.
+2. Remove the type signatures from the code, e.g. change `tab: Tab` to just `tab`.
+3. Update the file extensions in the **webpack** config (in the `webpack.common.js` file).
+
 ## Notes
 
 At the moment (November 7th, 2022), Firefox still hasn't adopted the Manifest V3 (it's being worked on).

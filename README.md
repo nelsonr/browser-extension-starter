@@ -48,7 +48,7 @@ Nonetheless, it's possible to just use plain JavaScript:
 
 The starter kit also includes a configuration file for [ESLint](https://eslint.org/). It's recommended to install the ESLint extension in your editor. There's some configuration included for using it with Visual Studio Code, so it should format your code automatically when saving any TypeScript or JavaScript file.
 
-To make any changes check out the the [documentation](https://eslint.org/docs/latest/) on the ESLint website.
+To make any changes check out the the [documentation](https://eslint.org/docs/latest/user-guide/configuring/) on the ESLint website.
 
 ## Notes
 

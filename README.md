@@ -18,7 +18,7 @@ Not every extension will require all these parts, as such, remove whatever it's 
 
 ## How to use
 
-The starter kit uses Node.js so make sure to have it installed before continuing, any stable version should be fine.
+The starter kit uses **Node.js** so make sure to have it installed before continuing, any stable version should be fine.
 
 1. Clone the repo or download a zip.
 2. Run `npm install` inside the project folder.
@@ -36,7 +36,7 @@ To create a production ready (minified) bundle:
 ## TypeScript
 
 TypeScript it's a superset of JavaScript, that transpiles into plain JavaScript. It adds additional type features and helps you avoid making the usual mistakes that happen when creating something more complex than a "Hello World".
-It can be a bit much at the start, with TypeScript yelling at you but after a while you'll start to appreciate it and hopefully, wonder how did you ever did anything without it.
+It can be a bit much at the start, with TypeScript yelling at you, but after a while you'll start to appreciate it and hopefully, wonder how did you ever did anything without it.
 
 Nonetheless, it's possible to just use plain JavaScript:
 
@@ -44,10 +44,16 @@ Nonetheless, it's possible to just use plain JavaScript:
 2. Remove the type signatures from the code, e.g. change `tab: Tab` to just `tab`.
 3. Update the file extensions in the **webpack** config (in the `webpack.common.js` file).
 
+## Code formatting and linting with ESLint
+
+The starter kit also includes a configuration file for [ESLint](https://eslint.org/). It's recommended to install the ESLint extension in your editor. There's some configuration included for using it with Visual Studio Code, so it should format your code automatically when saving any TypeScript or JavaScript file.
+
+To make any changes check out the the [documentation](https://eslint.org/docs/latest/) on the ESLint website.
+
 ## Notes
 
 At the moment (November 7th, 2022), Firefox still hasn't adopted the Manifest V3 (it's being worked on).
-This means that, to publish a Firefox Addon, you'll need to use the Manifest V2 instead.
+This means that to publish a Firefox Addon, you'll need to use the Manifest V2 instead, at least for now.
 
 ## Learn more
 

@@ -1,4 +1,4 @@
-// This content script will be loaded in every browser page (this can be configured).
+// This content script will be loaded in every browser page (this can be configured in the manifest file).
 // It's recommended to rename this file to something more meaningful so it's easy to find with the browser devtools.
 // Learn more: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts
 

@@ -23,7 +23,7 @@ The starter kit uses **Node.js** so make sure to have it installed before contin
 1. Clone the repo or download a zip.
 2. Run `npm install` inside the project folder.
 3. Start the development server with `npm run dev`, the compiled files will be available in the `dist/js` folder.
-4. Load the extension on your favorite browser (it needs to be compatible with the Manifest V3). Check this [link](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) to see how to manually load a extension on a (Chromium compatible) browser.
+4. Load the extension on your favorite browser (it needs to be compatible with the Manifest V3), select the `dist` folder. Check this [link](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked) to see how to manually load a extension on a (Chromium compatible) browser.
 
 ## Creating a production bundle
 

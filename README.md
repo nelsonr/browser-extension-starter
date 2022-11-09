@@ -8,13 +8,13 @@ The starter kit uses **TypeScript** and **webpack** for compiling and bundling.
 The starter kit, includes example of the common parts of an extension:
 
 1. **The Content Script:** the main script that runs inside and interacts with a regular web page;
-2. **The Background Worker:** a script running in the background that aids with communication between other parts of the extension or can be used to run some task in the backgound, without interfering the normal browser usage;
+2. **The Background Worker:** a script running in the background that aids with communication between other parts of the extension or can be used to run some task in the backgound, without interfering with the normal browser usage;
 3. **The Popup:** A web page that shows up when you click in the browser extension icon, useful for showing additional actions of the extension;
 4. **The Options Page:** A page that it's usually reserved for configuration or other related options of the extension.
 
-Not every extension will require all these parts, as such, remove whatever it's not necessary. After making any change make sure to update the `dist/manifest.json` file, otherwise it won't be valid and the browser will refuse installing the extension.
+Not every extension will require all these parts, as such, remove whatever it's not necessary. After making any change make sure to update the `dist/manifest.json` file, otherwise it won't be considered valid and the browser will refuse installing the extension.
 
-> **For example**: Instead of showing a Popup, the extension could just do something when the icon is clicked. In that scenario, the Popup wouldn't be necessary and could be removed.
+> **Example**: Instead of showing a Popup, the extension could just do something when the icon is clicked. In that scenario, the Popup code wouldn't be necessary and could be removed.
 
 ## How to use
 

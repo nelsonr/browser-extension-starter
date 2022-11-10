@@ -19,17 +19,13 @@ module.exports = {
         path: path.join(__dirname, "dist/js"),
         filename: "[name].js",
     },
-    // Handle specific file types like SCSS or JSX
+    // Handle specific file types like JSX
     module: {
         rules: [
             {
                 exclude: /node_modules/,
                 test: /\.tsx?$/,
                 use: "ts-loader",
-            },
-            {
-                test: /\.css$/,
-                use: "css-loader",
             },
         ],
     },
